@@ -242,7 +242,7 @@ END;
 
 -- %type  implements only the type of a specific column in a database table   e.g. accounts.account_id%type
 
-
+-- autonomous allows for change in a particular transcation without affecting the main one
 
 
 -- savepoint is a point in a transaction that you can roll back to
