@@ -242,7 +242,7 @@ END;
 
 -- %type  implements only the type of a specific column in a database table   e.g. accounts.account_id%type
 
-
+-- allows to do changes in a separate  transaction without affecting the main session transaction.
 
 -- savepoint is a point in a transaction that you can roll back to
 
